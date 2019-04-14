@@ -1,0 +1,102 @@
+2019-04-11 09:51:56  [ main:1 ] - [ INFO ]  ConsumerRecord(topic = testDemo, partition = 0, offset = 7, CreateTime = 1554947516105, checksum = 4205124347, serialized key size = -1, serialized value size = 3, key = null, value = ddd)
+2019-04-11 12:08:06  [ main:0 ] - [ INFO ]  ss
+2019-04-11 12:08:07  [ main:1004 ] - [ INFO ]  aaaaa
+2019-04-11 12:08:08  [ main:2004 ] - [ INFO ]  aaa
+2019-04-11 12:08:09  [ main:3006 ] - [ INFO ]  ddddd
+2019-04-11 12:08:10  [ main:4008 ] - [ INFO ]  dd
+2019-04-11 12:08:11  [ main:5010 ] - [ INFO ]  姘存按姘存按姘存按
+2019-04-11 12:08:12  [ main:6016 ] - [ INFO ]  ddd
+2019-04-11 12:08:13  [ main:7019 ] - [ INFO ]  ssss
+2019-04-11 12:08:14  [ main:8021 ] - [ INFO ]  ww
+2019-04-11 12:08:15  [ main:9024 ] - [ INFO ]  0
+2019-04-11 12:08:16  [ main:10025 ] - [ INFO ]  9
+2019-04-11 12:08:17  [ main:11026 ] - [ INFO ]  e
+2019-04-11 12:08:18  [ main:12028 ] - [ INFO ]  ss
+2019-04-11 12:08:19  [ main:13030 ] - [ INFO ]  ss
+2019-04-11 12:08:20  [ main:14031 ] - [ INFO ]  9
+2019-04-11 12:08:21  [ main:15031 ] - [ INFO ]  10
+2019-04-11 12:08:22  [ main:16045 ] - [ INFO ]  12
+2019-04-11 12:08:32  [ main:25929 ] - [ INFO ]  88
+2019-04-11 12:09:01  [ main:55059 ] - [ INFO ]  0
+2019-04-11 12:10:45  [ main:0 ] - [ INFO ]  66
+2019-04-11 13:29:33  [ main:0 ] - [ INFO ]  ================&gt; binlog[binlog.000003:13923] , name[springboot,tb_user] , eventType : UPDATE
+-------&gt; before
+id : 22    update=false
+username : 124    update=false
+password : 34    update=false
+-------&gt; after
+id : 22    update=false
+username : 12    update=true
+password : 34    update=false
+
+2019-04-11 13:29:46  [ main:13468 ] - [ INFO ]  ================&gt; binlog[binlog.000003:14230] , name[springboot,tb_user] , eventType : DELETE
+id : 22    update=false
+username : 12    update=false
+password : 34    update=false
+
+2019-04-11 13:41:23  [ main:0 ] - [ INFO ]  ================&gt; binlog[binlog.000003:15134] , name[springboot,tb_user] , eventType : UPDATE
+-------&gt; before
+id : 20    update=false
+username : 1266    update=false
+password : 33    update=false
+-------&gt; after
+id : 20    update=false
+username : 126    update=true
+password : 33    update=false
+
+2019-04-11 13:41:32  [ main:9021 ] - [ INFO ]  ================&gt; binlog[binlog.000003:15443] , name[springboot,tb_user] , eventType : UPDATE
+-------&gt; before
+id : 20    update=false
+username : 126    update=false
+password : 33    update=false
+-------&gt; after
+id : 20    update=false
+username : 12    update=true
+password : 33    update=false
+
+2019-04-11 13:46:41  [ main:0 ] - [ INFO ]  ================&gt; binlog[binlog.000003:16364] , name[springboot,tb_user] , eventType : UPDATE
+-------&gt; before
+id : 20    update=false
+username : 12    update=false
+password : 33    update=false
+-------&gt; after
+id : 20    update=false
+username : 129    update=true
+password : 33    update=false
+
+2019-04-11 13:54:14  [ main:0 ] - [ INFO ]  ================&gt; binlog[binlog.000003:16671] , name[springboot,tb_user] , eventType : UPDATE
+-------&gt; before
+id : 19    update=false
+username : 12    update=false
+password : 33    update=false
+-------&gt; after
+id : 19    update=false
+username : 126    update=true
+password : 33    update=false
+
+2019-04-11 13:54:48  [ main:34070 ] - [ INFO ]  ================&gt; binlog[binlog.000003:16978] , name[springboot,tb_user] , eventType : INSERT
+id : 28    update=true
+username : sdad    update=true
+password : asdasd    update=true
+
+2019-04-11 13:55:08  [ main:54107 ] - [ INFO ]  ================&gt; binlog[binlog.000003:17272] , name[springboot,tb_user] , eventType : DELETE
+id : 28    update=false
+username : sdad    update=false
+password : asdasd    update=false
+
+2019-04-11 17:17:14  [ main:0 ] - [ INFO ]  
+2019-04-11 17:17:15  [ main:1004 ] - [ INFO ]  ================&gt; binlog[binlog.000003:17566] , name[springboot,tb_user] , eventType : UPDATE
+-------&gt; before
+id : 20    update=false
+username : 129    update=false
+password : 33    update=false
+-------&gt; after
+id : 20    update=false
+username : 12    update=true
+password : 33    update=false
+
+2019-04-11 17:17:27  [ main:13044 ] - [ INFO ]  ================&gt; binlog[binlog.000003:17873] , name[springboot,tb_user] , eventType : DELETE
+id : 20    update=false
+username : 12    update=false
+password : 33    update=false
+

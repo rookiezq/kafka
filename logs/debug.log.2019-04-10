@@ -1,0 +1,4 @@
+2019-04-10 17:30:26  [ main:0 ] - [ INFO ]  ConsumerRecord(topic = test, partition = 0, offset = 0, CreateTime = 1554886662427, checksum = 2323420728, serialized key size = -1, serialized value size = 5, key = null, value = Hello)
+2019-04-10 17:30:26  [ main:4 ] - [ INFO ]  ConsumerRecord(topic = test, partition = 0, offset = 1, CreateTime = 1554886662441, checksum = 3433275876, serialized key size = -1, serialized value size = 5, key = null, value = World)
+2019-04-10 17:31:40  [ main:0 ] - [ INFO ]  ConsumerRecord(topic = test, partition = 0, offset = 0, CreateTime = 1554886662427, checksum = 2323420728, serialized key size = -1, serialized value size = 5, key = null, value = Hello)
+2019-04-10 17:31:40  [ main:5 ] - [ INFO ]  ConsumerRecord(topic = test, partition = 0, offset = 1, CreateTime = 1554886662441, checksum = 3433275876, serialized key size = -1, serialized value size = 5, key = null, value = World)
