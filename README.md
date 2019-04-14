@@ -90,7 +90,7 @@ mkdir data log
 mv zoo_sample.cfg zoo.cfg
 ```
 
-![1555041561451](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1555041561451.png)
+![](https://demon-1258469613.cos.ap-shanghai.myqcloud.com/img/20190412115922.png)
 
 修改**zoo.cfg**  `vi zoo.cfg`
 
@@ -370,7 +370,7 @@ systemctl start mysqld
 mysql -u root -p
 ```
 
-![1555033425897](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1555033425897.png)
+![](https://demon-1258469613.cos.ap-shanghai.myqcloud.com/img/20190414145419.png)
 
 这时默认密码不是root 
 
